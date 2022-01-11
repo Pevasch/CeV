@@ -127,3 +127,46 @@ else:
         print('PERDEU!')
     else:
         print('JOGADOR VENCE')
+
+# exercício 046
+from time import sleep
+
+for c in range(10,-1,-1):
+    print(c)
+    sleep(1)
+
+print('BUM! BUM! POOOW!')
+
+# exercício 047
+for c in range(1,51):
+    if c % 2 == 0:
+        print(c,end=' ')
+print('Acabou')
+
+# exercício 048
+
+soma, contador = 0,0
+
+for c in range(1,500):
+    if c % 3 == 0 and c % 2 != 0:
+        contador += 1
+        soma+= c
+print(f'A soma de todos os {contador} valores solicitados é {soma}')
+
+# exercício 049
+verde = '\033[32m'
+limpa = '\033[0m'
+
+n = int(input(f'Digite um número para ver sua tabuada: {verde}'))
+for c in range(1,11):
+    print(f'{limpa}{n} x {c:2} = {verde}{n*c}')
+    
+# exercício 050
+
+soma = 0
+
+for c in range(0,6):
+    n = int(input('Digite um número inteiro: '))
+    if n % 2 == 0:
+        soma += n
+print(soma)

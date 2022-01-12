@@ -4,29 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatoções</h1>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é ÍMPAR')
-    print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PT64&lpg=PT64&dq=A+diferen%C3%A7a+entre+elementos+inline+e+um+bloco+de+texto+%C3%A9+importante.+Os+elementos+HTML+neste+cap%C3%ADtulo+descrevem+os+blocos+de+texto&source=bl&ots=ft1xxK0Mdz&sig=ACfU3U0MsfvDT6j3ct-JEcP-m017-7z1IQ&hl=pt-PT&sa=X&ved=2ahUKEwiQyZ__oaz1AhW_p5UCHTkpC74Q6AF6BAgOEAM#v=onepage&q=A%20diferen%C3%A7a%20entre%20elementos%20inline%20e%20um%20bloco%20de%20texto%20%C3%A9%20importante.%20Os%20elementos%20HTML%20neste%20cap%C3%ADtulo%20descrevem%20os%20blocos%20de%20texto&f=false">A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendento a criar coisas em HTML.</bdo></p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i">
+        <li>Acordar
+        <li>Ligar para o João
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Ir para a faculdade
+        <li>Almoçar
+        <li>Ir para o trabalho
+        <li>Voltar para casa
+        <li>Jantar
+        <li>Dormir
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square">
+        <li>Pão
+        <li>Leite
+        <li>Tomate
+        <li>Alface
+        <li>Manteiga
+        <li>Arroz
+        <li>Feijão
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas
+        <ol type="a">
+            <li>Clipper
+            <li>Visual Basic
+            <li>Fortran
+            <li>Delphi
+        </ol>
+        <li>Novas
+        <ol type="a" start="5">
+            <li>PHP
+            <li>Python
+            <li>JavasScript
+            <li>Kotlin
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ul>
+        <li>Nintendinho
+        <ol>
+            <li>Mario Bros
+            <ul type="square">
+                <li>Super Mario Bros 3
+                <li>Mario: Lost Levels
+            </ul>
+            <li>Ninja Gaiden
+            <ul type="square">
+                <li>Ninja Gaiden III
+            </ul>
+        </ol>
+        <li>Super Nintendo
+        <ol>
+            <li>Super Mario World
+            <li>Donkey Kong
+            <ul type="square">
+                <li>Donkey Kong Country III
+                <li>Diddy's Konk Quest
+            </ul>
+        </ol>
+        <li>Playstation 1
+        <ol>
+            <li>Final Fantasy
+            <ul type="square">
+                <li>Final Fantasy VII
+                <li>Final Fantasy IX
+            </ul>
+            <li>Castlevania
+            <ul type="square">
+                <li>Simphony of the Night
+            </ul>
+        </ol>
+    </ul>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML
+        <dd>Liguagem de marcação para a criação do conteúdo de um site.
+        <dt>CSS
+        <dd>Linguagem de marcação para a criação do design de um site.
+        <dt>JavasScript
+        <dd>Linguagem de programação pra a criação de interatividade de um site.
+    </dl>
 </body>
 </html>

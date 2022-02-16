@@ -1,0 +1,70 @@
+@charset "UTF-8 ";
+
+@font-face {
+    font-family: "Droid";
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(fontes/BebasNeue-Regular.otf);
+}
+
+/*
+#C5EBD6
+#83E1AD
+#3DDC84
+#2FA866
+#063D1E
+*/
+
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #063D1E;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas', cursive;
+    --fonte2: 'Droid', sans-serif;
+}
+
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+header {
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.466);
+}
+
+main {
+    min-width: 400px;
+    max-width: 800px;
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+

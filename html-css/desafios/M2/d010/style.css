@@ -1,0 +1,157 @@
+@charset "UTF-8 ";
+
+@font-face {
+    font-family: 'Droid';
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: 'Antonio';
+    src: url(fontes/Antonio-Light.ttf);
+}
+body {
+    font: 0.7em Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: rgba(132,225,173,255);
+}
+header {
+    font-family: 'Arial Narrow', sans-serif;
+    background-image: linear-gradient(180deg, rgba(54,192,116,255), rgba(25,88,53,255));
+    color: white;
+    text-align: center;
+    height: 120px;
+    padding: 10px;
+    margin: -8px;
+    text-shadow: #3b7955 0.9px 0.7px 1px;
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+p#p_header {
+    color: #d0ded5;
+    display: block;
+    margin: auto;
+    width: 255px;
+}
+
+nav {
+    text-align: left;
+    margin: 30px 0px;
+}
+nav > a {
+    padding: 5px;
+    color: #d0ded5;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #2fa866;
+    color: #1a5c38;
+}
+
+main {
+    
+    background-color: white;
+    padding: 1px 15px;
+    border-radius: 0px 0px 10px 10px;
+    margin: 8px 90px;
+    box-shadow: 4px 2px 6px  rgba(0, 0, 0, 0.247);
+}
+
+h2 {
+    font-family: 'Droid', Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h3 {
+    font-family: 'Droid', Arial, Helvetica, sans-serif;
+    color: rgba(0, 100, 0, 0.945);
+    background-image: linear-gradient(90deg, #c5ebd6, white);
+}
+p {
+    text-indent: 10px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(2, 68, 2);
+}
+
+a.main::after{
+    content:  '🔗';
+}
+
+img#bugdroid {
+    width: 40%;
+}
+
+iframe {
+    width: 100%;
+    outline-width: 15px;
+    outline-style: solid;
+    outline-color: #1a5c38;
+    
+}
+
+aside {
+    background-color: #c5ebd6;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px 0px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.158);
+
+}
+h4 {
+    padding: 5px;
+    margin: -5px;
+    background-color: #2fa866;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+div#left {
+    display: inline-block;
+  
+}
+
+div#right {
+    display: inline-block;
+ 
+}
+
+li::before {
+    content: '✓';
+}
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    color: #6a9e82;
+    background-color: #1a5c38;
+    padding: 4px;
+    margin: 0px -8px -8px -8px;
+    height: 6px;
+}
+
+strong {
+    color: darkgreen;
+}
+
+strong.foot {
+    color: #b4c9bd ;
+}

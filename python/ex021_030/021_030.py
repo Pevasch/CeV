@@ -2,7 +2,7 @@
 import pygame
 
 pygame.init()
-pygame.mixer.music.load('C:\\Users\\chpev\\Downloads\\Castamere.mp3')
+pygame.mixer.music.load('Castamere.mp3')
 pygame.mixer.music.play()
 input()
 
